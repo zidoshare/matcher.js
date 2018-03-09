@@ -1,0 +1,10 @@
+var gulp = require('gulp')
+var rename = require('gulp-rename')
+var uglify = require('gulp-uglify')
+gulp.task('default', function () {
+  return gulp.src('./matcher.js')
+    .pipe(gulp.dest('.'))
+    .pipe(uglify())
+    .pipe(rename({extname:'.min.js'}))
+    .pipe(gulp.dest('.'))
+})
