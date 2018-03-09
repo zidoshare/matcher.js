@@ -2,23 +2,23 @@
   "name": "matcher.js",
   "version": "1.0.0",
   "description": "字符串匹配算法相关js实现",
-  "main": "index.js",
+  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "mocha test",
-    "build": "gulp"
+    "build": "webpack --progress --colors"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^3.0.0",
-    "mocha": "^5.0.4"
+    "clean-webpack-plugin": "^0.1.19",
+    "eslint": "^4.18.2",
+    "mocha": "^5.0.4",
+    "webpack": "^4.1.1"
   },
   "repository": {
     "type": "git",

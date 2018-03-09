@@ -1,5 +1,4 @@
-/* global describe,it */
-var kmp = require('../matcher.js').kmp
+var kmp = require('../src/kmp.js')
 var expect = require('chai').expect
 
 describe('kmp finderFirst方法测试', function () {
