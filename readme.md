@@ -6,11 +6,11 @@
 
 # 使用
 
-安装 `npm install zitcher.js`
+安装 `npm install zitcher`
 
 ```javascript
 
-  var zitcher = require('zitcher.js')
+  var zitcher = require('zitcher')
 
   //create by pattern 
   //如果传入字符串，会自动采用kmp算法，获取kmp对象，此对象重复使用
@@ -19,7 +19,7 @@
   //如果是传入字符串，会采用ac自动机算法
   var finder2 = zitcher(['abc','def'])
   result = finders.findFirst('ouabcpjeuirfddef')
-  console.log(resultArr[i].mode,resultArr[i].start)
+  console.log(result.mode,result.start)
 
 ```
 
@@ -27,10 +27,9 @@
 
 findFirst() //查找第一次出现的子串
 
-findAll() // 查找所有出现的子串
+findAll() // 查找所有出现的子串,返回数组，每个数据与findFirst格式相同
 
  
-
 # 测试
 
 > npm test
