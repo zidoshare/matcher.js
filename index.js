@@ -1,5 +1,5 @@
-var kmp = require('./kmp.js')
-var ac = require('./ac.js')
+var kmp = require('./src/kmp.js')
+var ac = require('./src/ac.js')
 function matcher(pattern) {
   if (typeof pattern === 'string') {
     return new kmp(pattern)

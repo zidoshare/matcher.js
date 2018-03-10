@@ -1,4 +1,4 @@
-var kmp = require('../src/kmp.js')
+var kmp = require('../lib/kmp.js')
 var expect = require('chai').expect
 
 describe('kmp finderFirst方法测试', function () {
