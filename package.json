@@ -10,7 +10,12 @@
     "test": "mocha test",
     "build": "webpack --progress --colors"
   },
-  "keywords": ["matcher","zitcher","kmp","ac"],
+  "keywords": [
+    "matcher",
+    "zitcher",
+    "kmp",
+    "ac"
+  ],
   "author": "zido",
   "license": "MIT",
   "devDependencies": {
@@ -18,7 +23,8 @@
     "clean-webpack-plugin": "^0.1.19",
     "eslint": "^4.18.2",
     "mocha": "^5.0.4",
-    "webpack": "^4.1.1"
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
   },
   "repository": {
     "type": "git",
