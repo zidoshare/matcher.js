@@ -11,9 +11,10 @@ describe('ac finderFirst方法测试', function () {
 })
 
 describe('ac findAll方法测试',function () {
-  it('在目标串 huisabcasfesfbcpjpirfjyluibedf 中 查找到的结果测试 出5个结果', function () {
-    var finder = new ac(['abc', 'bc', 'jy', 'edf'])
-    var results = finder.findAll('huisabcasfesfbcpjpirfjyluibedf')
-    expect(results).to.be.an('array').to.have.length.least(5)
+  it('在目标串 huisabcasfesfbcpjpirfjyluibedf 中 查找到的结果测试 出2个结果', function () {
+    var finder = new ac(['abc', 'adc', 'jy', 'edf'])
+    var results = finder.findAll('1abcegadc')
+    console.log(results)
+    expect(results).to.be.an('array').to.have.length.least(2)
   })
 })
