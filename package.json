@@ -1,6 +1,6 @@
 {
   "name": "zitcher",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "字符串匹配算法相关js实现",
   "main": "index.js",
   "directories": {
